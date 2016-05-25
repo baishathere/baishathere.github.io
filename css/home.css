@@ -1,0 +1,62 @@
+@media only screen and (min-width:1024px) {
+  
+  .fr { float: right; }
+  .fl { float: left; }
+  
+  .column3_2 {
+    width: 60%;
+    padding: 2em;
+  }
+
+  .column3_1 {
+    margin-top: 40px;
+    width: 33%;
+  }
+
+  .comments {
+    background: url(/photo/yulong.jpg) no-repeat center center;
+    background-size: cover;
+    }
+  
+  .comments h3{
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .home-slider2 {
+    float: right;
+    width: 33%;
+    padding: 2em;
+  }
+
+  .user-info img{
+    width: 80px;
+    height: 80px;
+    border: 3px solid #fff;
+    border-radius: 500rem;
+  }
+
+  .say-content {
+    margin: 20px;
+    color: white;
+  }
+
+}
+
+@media only screen and (max-width:600px) {
+.column3_2 {
+  padding-top: 10px;
+}
+}
+
+.cleared {
+  clear:both;
+}
+
+.center {
+  text-align: center;
+}
+
+.more {
+  color: yellow;
+}
