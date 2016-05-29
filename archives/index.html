@@ -23,6 +23,8 @@
 
     
     
+    <link rel="icon" href="/img/favicon.ico">
+    
     
     <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -33,7 +35,7 @@
 <div>
 		
 			<div id="imglogo">
-				<a href="/"><img src="/img/logo.gif" alt="白沙那里国际青年旅舍" title="白沙那里国际青年旅舍"/></a>
+				<a href="/"><img src="/img/yhalogo.png" alt="白沙那里国际青年旅舍" title="白沙那里国际青年旅舍"/></a>
 			</div>
 			
 			<div id="textlogo">
@@ -104,7 +106,12 @@
 
       </div>
       <footer><div id="footer" >
-	
+  
+	<div class="line">
+	  <span></span>
+	  <div class="author"></div>
+	</div>
+  
 	
 	<section class="info">
 		<p> 你好，我是百合 <br/>
@@ -130,13 +137,7 @@
 			
 		
 
-		<p class="copyright">
-		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2016 
-		
-		<a href="/about" target="_blank" title="贤民">贤民</a>
-		
-		
-		</p>
+
 </div>
 </footer>
       <script src="/js/jquery-2.0.3.min.js"></script>
@@ -153,9 +154,18 @@
    arrows: false,
    nav: false,
    autoplay: true,
+   speed: 1500,
  });
 </script>
 
+<script>
+ $('.home-slider2').unslider({
+   arrows: true,
+   nav: false,
+   autoplay: true,
+   speed: 1500,
+ });
+</script>
 
 <script type="text/javascript">
 $(document).ready(function(){ 
